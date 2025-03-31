@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Hope Fund</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d9534f;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .donate-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .progress {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 20px;
+            margin: 20px 0;
+        }
+        .progress-bar {
+            height: 100%;
+            width: 30%; /* Example progress */
+            background: #28a745;
+        }
+        .security {
+            font-size: 14px;
+            color: #555;
+            margin-top: 20px;
+        }
+        .payment-options img {
+            width: 50px;
+            margin: 10px;
+        }
+        /* Ensuring fast processing and smooth operations */
+        * {
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Healing Hope Fund</h1>
+        <p><strong>Requesting Assistance in Securing Funds for Treatment</strong></p>
+        <p>Our mother, an Indian national, has been diagnosed with Grade III Anaplastic Astrocytoma. Unfortunately, due to the nature of her condition, the hospital is unable to provide further care. We are seeking urgent financial assistance to cover her medical expenses of 480,000 AED.</p>
+        <div class="progress">
+            <div class="progress-bar"></div>
+        </div>
+        <a href="https://securepaymentgateway.com/donate" class="donate-btn">Donate Now</a>
+        <p class="security">Your donation is secured with SSL encryption and fraud protection. This site is optimized for high-speed processing and can handle heavy data traffic for smooth operations.</p>
+        <div class="payment-options">
+            <p>We accept:</p>
+            <img src="credit_card.png" alt="Credit Card">
+            <img src="paypal.png" alt="PayPal">
+            <img src="upi.png" alt="UPI">
+            <img src="apple_pay.png" alt="Apple Pay">
+            <img src="samsung_pay.png" alt="Samsung Pay">
+        </div>
+    </div>
+</body>
+</html>
